@@ -7,7 +7,7 @@ load_dotenv()
 import openai
 
 
-openai.api_key = st.secret('api_secret')
+openai.api_key = st.secrets['api_secret']
 
 st.title("Chatbot : ChatGPT and Streamlit Chat")
 st.subheader("AI Tutor:")
