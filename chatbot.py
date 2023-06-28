@@ -14,7 +14,7 @@ st.subheader("AI Tutor:")
 
 model = st.selectbox(
     "Select a model",
-    ("Davinci-turbo", "Davinci 4")
+    ("gpt-3.5-turbo", "gpt-4")
 )
 
 #to store the generated messages, past queries, and the initial set of messages.
