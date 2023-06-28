@@ -9,7 +9,7 @@ import openai
 
 openai.api_key = st.secrets['api_secret']
 
-st.title("Chatbot : ChatGPT and Streamlit Chat")
+st.title("Chatbot : Ask Anything about Nuclear Energy.")
 st.subheader("AI Tutor:")
 
 model = st.selectbox(
